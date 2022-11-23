@@ -1,0 +1,57 @@
+body {
+    padding: 0px 100px 0px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 {
+   display: flex;
+   flex-basis: 50%;
+   margin: 50px 0 50px 0; 
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigButton p {
+    text-align: center;
+}
+
+
+
+.imageSmall {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+.image {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+.header ul {
+    display: flex;
+    gap: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
