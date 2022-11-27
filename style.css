@@ -2,8 +2,8 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     margin: 0;
-    background-color: rgb(34, 11, 43);
-    color: white;
+    background-color: rgb(15, 6, 19);
+    color: rgb(58, 238, 112);
 }
 
 .headerLogo {
@@ -15,13 +15,6 @@ body {
     font-size: 48px;
     font-weight:bolder;
     
-}
-
-.infoHeaderText {
-    font-size: 36px;
-    font-weight: bolder;
-    text-align: center;
-    margin: 35px auto 35px auto;
 }
 
 h3 {
@@ -39,14 +32,19 @@ p {
 
 .sectionMain {
    display: flex;
-   flex-basis: 50%;
+   justify-content: center;
+   
    gap: 50px;
-   margin: 150px 0 150px 0;
+   margin: 100px 0 100px 0;
     
 }
 
+.sectionMain img {
+    width: 288px;
+}
+
 .mainText {
-    padding: 10px 0 10px 0;
+    padding: 10px 0 24px 0;
 }
 
 hr {
@@ -54,11 +52,19 @@ hr {
     width: 70%;
 }
 
+.infoHeaderText {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 35px auto 35px auto;
+}
+
 .buttonContainer {
     display: flex;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
+    margin-bottom: 35px;
 }
 
 .bigButton {
@@ -103,18 +109,19 @@ hr {
     padding: 20px 70px 20px 70px;
     gap: 50px;
     max-width: 400px;
-    background-color: #2ec241;
-    border-radius: 5px;
+    background-color: rgb(230, 17, 201);
+    border-radius: 10px;
 }
 
 .textCTA {
+    color: white;
     flex-grow: 2;
 }
 
 button {
     align-self: center;
     width: 100px;
-    background-color: rgb(46, 194, 65);
+    background-color: rgb(230, 17, 201);
     color: white;
     border: none;
     border-radius: 5px;
@@ -140,7 +147,7 @@ button {
 }
 
 .imageSmall {
-    border: 2px solid #2ec241;
+    border: 2px solid rgb(230, 17, 201);
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -158,6 +165,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color:rgb(58, 238, 112)
 }
 
